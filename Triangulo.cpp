@@ -1,7 +1,7 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-
+//variavel classe 
 class Triangulo{
     private:
        double a, b, c;
@@ -18,6 +18,7 @@ class Triangulo{
        double area(p*(p-a)*(p-b)*(p-c));
        return area;
     }
+    //colocando variaveis para colocar valores de outras variaveis
     double getlado1(){return a;}
     double getlado2(){return b;}
     double getlado3(){return c;}
